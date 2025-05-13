@@ -1,5 +1,7 @@
 # sistema_cognitivo_api
-API de consulta de dados para o sistema cognitivo
+API de consulta de dados para o sistema cognitivo.
+
+Essa API foi desenvolvida em python com fastAPI no objetivo de ser uma construção rápida e simples com uma única rota para pegar os dados do banco de dados de forma dinâmica e eficiente. Para isso foi utilizado uma instância docker do banco MongoDB pra facilitar a sua criação.
 
 ## Dependencias
 É necessário instalar algumas dependências na sua máquina para que tudo rode corretamente, sendo elas:
