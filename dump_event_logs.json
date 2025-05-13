@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "6822759d3dee4ef3d677ccc7"
+  },
+  "classe": "Aprovado",
+  "nome_item": "Placa Sextavada",
+  "codigo": "1318",
+  "data_hora": {
+    "$date": "2025-05-12T22:26:37.172Z"
+  },
+  "total": 1
+},
+{
+  "_id": {
+    "$oid": "682275ab3dee4ef3d677ccc8"
+  },
+  "classe": "Aprovado",
+  "nome_item": "Placa Sextavada",
+  "codigo": "1318",
+  "data_hora": {
+    "$date": "2025-05-12T22:26:51.078Z"
+  },
+  "total": 2
+},
+{
+  "_id": {
+    "$oid": "682275b73dee4ef3d677ccc9"
+  },
+  "classe": "Reprovado",
+  "nome_item": "Placa Sextavada",
+  "codigo": "1318",
+  "data_hora": {
+    "$date": "2025-05-12T22:27:03.450Z"
+  },
+  "total": 3
+}]

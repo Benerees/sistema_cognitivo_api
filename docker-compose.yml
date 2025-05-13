@@ -3,15 +3,17 @@ version: "3.8"
 services:
   mongo:
     image: mongo:6.0
-    container_name: vega_mongo
+    container_name: mongoDB
     environment:
       - MONGO_INITDB_ROOT_USERNAME=${MONGO_USERNAME}
       - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASSWORD}
       - MONGO_INITDB_DATABASE=${MONGO_DB}
-    volumes:
-      - mongo_data:/data/db
     ports:
       - "${MONGO_PORT}:27017"
+    volumes:
+      - mongo_data:/data/db
+      - ./dump_event_logs.json:/docker-entrypoint-initdb.d/dump_event_logs.json:ro
+      - ./import.sh:/docker-entrypoint-initdb.d/import.sh:ro
 
 volumes:
   mongo_data:

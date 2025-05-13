@@ -31,7 +31,7 @@ MONGO_DB=meu_banco
 ```
 
 ## Rodando o projeto
-Para iniciar o docker que contém o banco, é necessário rodar o seguinte comando:
+Para iniciar o docker que contém o banco, é necessário rodar o seguinte comando que já populará o banco com alguns dados de um dump presente no projeto:
 ```bash
 docker compose up
 ```
